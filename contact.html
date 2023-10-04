@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Animate css -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <!-- Bootstrap Css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="text-center p-5">
+        <h1 class="animate__animated animate__fadeInDown animate__delay-2s">CONTACT US</h1>
+        <p>
+          Fill out the form and a member of our Company would contact you
+          within 24 hours, or scroll down for more ways to get in touch.
+        </p>
+      </div>
+    </section>
+    <!-- End of first section -->
+    <section class="bg-light p-5">
+      <div class="container-fluid">
+        <div class="container shad">
+          <div class="row">
+            <div class="col-md-4 shad  bg-dark p-5 text-white">
+              <div>
+                <h4>Contact Chrissemma</h4>
+                <p>Already a customer or you need help with our services? <a href="#">Contact Support</a></p>
+                <p class="text-white-50 mt-5">CHRISEMMA</p>
+                <div class="d-flex">
+                  <i class="bi bi-telephone text-white-50"></i>
+                  <p class="mx-2">+1800 708 8749</p>
+                </div>
+                <p class="text-white mt-3">Fill out your details to be contacted.</p>
+                <div class="d-flex mt-5">
+                  <span>
+                    <a href=""><i class="bi bi-facebook mx-2 fs-2 text-light"></i></a>
+                    <a href=""><i class="bi bi-whatsapp mx-2 fs-2 text-light"></i></a>
+                    <a href=""><i class="bi bi-linkedin mx-2 text-light fs-2"></i></a>
+                    <a href=""><i class="bi bi-instagram mx-2 fs-2 text-light"></i></a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 px-5 mt-5">
+              <div class="row g-3">
+                <div class="col">
+                  <label for="FirstName"><h6>First Name</h6></label>
+                  <input type="text" class="form-control" id="FirstName" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <label for="LastName"><h6>Last Name</h6></label>
+                  <input type="text" class="form-control" id="LastName" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row g-3 mt-3">
+                <div class="col">
+                  <label for="Email"><h6>Email</h6></label>
+                  <input type="email" class="form-control" id="Email" placeholder="you@yoursite.com" aria-label="Email">
+                </div>
+                <div class="col mt-3">
+                  <label for="Phone"><h6>Phone</h6></label>
+                  <input type="text" class="form-control" id="Phone" placeholder="Phone" aria-label="Phone">
+                </div>
+              </div>
+              <div class="row g-3 mt-3">
+                <div class="col">
+                  <label for="CompanyName"><h6>Company Name</h6></label>
+                  <input type="text" class="form-control" id="CompanyName" placeholder="Company Name" aria-label="Company Name">
+                </div>
+                <div class="col mt-3">
+                  <label  for="autoSizingSelect"><h6>Type of Design</h6></label>
+                  <select class="form-select" id="autoSizingSelect">
+                    <option selected>Select a design</option>
+                    <option value="1">Home Decor</option>
+                    <option value="2">Interior Design</option>
+                    <option value="3">Exterior Design</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 mt-5">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    <p>Yes i would like to receive news and offers via email</p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="griCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    <p>Yes, i agree to receive phone calls from CHRISEMMA</p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-12 mt-3 mb-3">
+                <button
+              type="submit"
+              class="btn btn-lg mt-3 mt-lg-5   btn-outline-light fs-6 fw-bold bg-dark text-center"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <a class="text-light" href="">Submit</a> <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <!-- J Query -->
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Popper Js -->
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  </body>
+</html>
